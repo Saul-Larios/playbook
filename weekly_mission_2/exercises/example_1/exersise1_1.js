@@ -1,6 +1,6 @@
 const repo = {
     name: "LaunchX",
-    author: "carlogilmar",
+    author: "Saul Larios",
     language: "JavaScript",
     numberOfCommits: 100,
     stars: 199,
