@@ -3,7 +3,7 @@ const Issue = {
     repositoryNameAssociated: "NodeJs",
     status: "main",
     numberOfComments: 5,
-    labels: 1,
+    labels: 2,
     author: "Saul Larios",
     dateCreated: "05/06/22",
     lastUpdate: "06/06/22",
