@@ -25,7 +25,7 @@ const explorers = [
       city: "Veracruz",
       rate: 50,
       stack: [
-        "js"
+        "elixir"
       ],
       missions: {
         onboarding: {
@@ -44,7 +44,7 @@ const explorers = [
       city: "CDMX",
       rate: 100,
       stack: [
-        "elixir"
+        "js"
       ],
       missions: {
         onboarding: {
@@ -67,3 +67,5 @@ const explorers = [
    const explorersJs = explorers.filter((explorers) =>
    explorers.stack.includes('js'))
    console.log(explorersJs)
+   const explorer_CITY = explorers.find((explorers) => explorers.city == "CDMX")
+   console.log(explorer_CITY.name + " Es de " + explorer_CITY.city)
